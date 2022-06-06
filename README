@@ -1,0 +1,13 @@
+Square-1
+========
+
+The solve_shape_square1 script is a simple-minded helper to solve the
+Square-1 puzzle, which is similar to Rubik's Cube, but has the
+important difference that its shape can change away from the cube:
+
+https://en.wikipedia.org/wiki/Square-1_(puzzle)
+
+This script helps to solve the shape of a Square-1 (back to a cube)
+but it does not help to solve the colors.  It produces the shortest
+moves from the initial shape (the cube) to any other shape using a
+breadth-first search.
